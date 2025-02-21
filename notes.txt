@@ -1,0 +1,17 @@
+-- Python Installation
+https://www.youtube.com/watch?v=C3bOxcILGu4
+
+-- Git Installation
+https://www.youtube.com/watch?v=t2-l3WvWvqg
+
+-- Create Virtual Environment
+1. In the terminal, cd to desired folder path.
+2. python -m venv env
+3. .\env\Scripts\activate
+
+-- Jupyter Notebook Setup
+1. Install the Jupyter extension
+2. pip install jupyter
+3. pip install ipykernel
+4. python -m ipykernel install --user --name=env --display-name "Python (env)"
+5. Select "Python (env)" kernel from the Kernel menu
